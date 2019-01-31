@@ -10,13 +10,13 @@ among which annotations is used for storing instances_train2017.json and instanc
 
 then use [labelme2coco.py](https://github.com/CeciliaPYY/pytorch-deeplab-xception/blob/master/labelme2coco.py) to generate instances_train2017.json and instances_val2017.json
 
-'''
+```
 python labelme2coco.py --type train --directory ./data_annotated_20180130/images/train --output ./data_annotated_20180130/annotations 
-'''
+```
 
-'''
+```
 python labelme2coco.py --type val --directory ./data_annotated_20180130/images/val --output ./data_annotated_20180130/annotations 
-'''
+```
 
 ### 1. first edit [mypath.py](https://github.com/CeciliaPYY/pytorch-deeplab-xception/blob/master/mypath.py) like below
 ![Results](images/my_path.jpg)
